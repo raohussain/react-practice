@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.time-day{
+
+}

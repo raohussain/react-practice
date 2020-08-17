@@ -1,0 +1,151 @@
+.header{
+    font-size: 50px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 0px; */
+    padding-bottom: 20px;
+    /* margin: 5px; */
+}
+.company-name >span{
+    font-weight: 600;
+}
+.search input[type=text] {
+    /* float: right; */
+    padding: 6px;
+    border: 1px solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #90868633;
+  }
+  .cart {
+    display: flex;
+    font-size: 30px;
+    justify-items: flex-start;
+    background: #90868633;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: 400;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+  }
+  .cart >span{
+    color: red;
+  }
+.nav-bar{
+    background: #ff4e4e ;
+}
+.nav-link{
+    color: white;
+}
+.row-wrapper{
+    margin-top: 30px;
+}
+.sale{
+    background: #a6d2b2;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.from-text{
+    font-size: 20px;
+    font-weight: 300;
+}
+.big-sale{
+    font-size: 70px;
+    font-weight: 400;
+}
+.sale-text{
+    font-size: 20px;
+    font-weight: 300;
+}
+.sale-text >p{
+    border: 1px solid;
+    width: 180px;
+    justify-content: center;
+    display: inline-flex;
+    font-size: 35px;
+    font-weight: 500;
+    background: white;
+    color: #a6d2b2;
+}
+.smile{
+    background: #eadc5b;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    color: #9e6a6a;
+}
+.keep-smile{
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.s-1000{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.voucher{
+    background: #cc917b;
+    color: #9e6a6a;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+.enter-voucher{
+    margin-top: 40px;
+    font-size: 15px;
+}
+.tablets{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.give-away{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.smart-phones{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.smart-phones> hr{
+    border: 1px solid #15141473;
+}
+.mobiles{
+    text-align: center;
+}
+.img{
+
+}
+.brand{
+    font-size: 15px;
+    font-weight: 600;
+}
+.price{
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/*.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }*/

@@ -1,0 +1,238 @@
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+.main-div{
+    /* display:flex; */
+    margin:0;
+    padding:0;
+    /* box-sizing:border-box; */
+}
+.upper-header{
+    background:#daf1fb;
+    display: flex;
+    justify-content: flex-end;
+}
+.hr{
+    background:white; 
+    margin: 0px;
+    border: 1px solid white;
+}
+.label{
+    margin-right: 10px;
+}
+.currency{
+    /* border: none; */
+    /* padding-left: 10px; */
+    padding-right: 30px;
+    margin: 0px;
+    padding-top: 0px;
+}
+.header{
+    font-size: 50px;
+    /* font-weight: 200; */
+    display: flex;
+    justify-content: space-around;
+    background:#daf1fb;
+    /* padding-top: 0px; */
+    /* padding-bottom: 20px; */
+    /* margin: 5px; */
+}
+.header-img{
+    z-index: -1;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    flex: auto;
+}
+.G{
+    font-size: 120px;
+    font-weight: 900;
+    font-family: cursive;
+}
+.gstar{
+    @media only screen and (max-width: 480px) {
+        font-size: 30px;
+    }
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: inherit;
+}
+.right{
+    display: flex;
+    flex-flow: column;
+    /* flex: auto; */
+    font-size: 25px;
+    font-weight: 300;
+    justify-content: space-around;
+    /* margin-right: -200px; */
+}
+/* .login{
+    display: flex;
+    justify-content: center;
+} */
+.company-name >span{
+    font-weight: 600;
+}
+/* .search input[type=text] { */
+    /* padding: 6px;
+    border: 1px solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #90868633; */
+  /* } */
+  .searchbox{
+    background: white;
+    padding: 2px;
+    margin-top: 4px;
+    margin-right: 30px;
+  }
+  /* .addcart{
+    display: flex;
+    justify-content: center;
+  } */
+  .cart {
+    /* display: flex; */
+    /* font-size: 30px; */
+    /* justify-items: flex-start; */
+    /* background: #90868633; */
+    /* justify-content: center; */
+    /* margin-top: 25px; */
+    /* font-weight: 400; */
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+  /* .cart >span{
+    color: red;
+  } */
+.nav-bar{
+    background: #443434 ;
+    margin-bottom: 20px;
+}
+.nav-link{
+    color: grey;
+}
+.row-wrapper{
+    margin-top: 30px;
+}
+.sale{
+    background: #a6d2b2;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.from-text{
+    font-size: 20px;
+    font-weight: 300;
+}
+.big-sale{
+    font-size: 70px;
+    font-weight: 400;
+}
+.sale-text{
+    font-size: 20px;
+    font-weight: 300;
+}
+.sale-text >p{
+    border: 1px solid;
+    width: 180px;
+    justify-content: center;
+    display: inline-flex;
+    font-size: 35px;
+    font-weight: 500;
+    background: white;
+    color: #a6d2b2;
+}
+.smile{
+    background: #eadc5b;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    color: #9e6a6a;
+}
+.keep-smile{
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.s-1000{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.voucher{
+    background: #cc917b;
+    color: #9e6a6a;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+.enter-voucher{
+    margin-top: 40px;
+    font-size: 15px;
+}
+.tablets{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.give-away{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.smart-phones{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.smart-phones> hr{
+    border: 1px solid #15141473;
+}
+.mobiles{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.brand{
+    font-size: 15px;
+    font-weight: 600;
+}
+.price{
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+.product{
+
+}
+.pro-type{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.special{
+    color:grey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.new-pro{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.new-pro-img{
+    margin-left: -20px;
+}
